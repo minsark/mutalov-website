@@ -1,0 +1,212 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page42538749.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://mutalov\.com/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.mutalov.com [NC]
+RewriteRule ^(.*)$ https://mutalov\.com/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^k1$ page42576785.html [NC]
+RewriteRule ^k1/$ page42576785.html [NC]
+
+RewriteRule ^k2$ page42751650.html [NC]
+RewriteRule ^k2/$ page42751650.html [NC]
+
+RewriteRule ^k3$ page42808561.html [NC]
+RewriteRule ^k3/$ page42808561.html [NC]
+
+RewriteRule ^k4$ page42813780.html [NC]
+RewriteRule ^k4/$ page42813780.html [NC]
+
+RewriteRule ^k5$ page42813798.html [NC]
+RewriteRule ^k5/$ page42813798.html [NC]
+
+RewriteRule ^k6$ page42964479.html [NC]
+RewriteRule ^k6/$ page42964479.html [NC]
+
+RewriteRule ^kontakty$ page42813853.html [NC]
+RewriteRule ^kontakty/$ page42813853.html [NC]
+
+RewriteRule ^cashflow$ page43371655.html [NC]
+RewriteRule ^cashflow/$ page43371655.html [NC]
+
+RewriteRule ^nedvizhimost$ page43373517.html [NC]
+RewriteRule ^nedvizhimost/$ page43373517.html [NC]
+
+RewriteRule ^finansy$ page43483195.html [NC]
+RewriteRule ^finansy/$ page43483195.html [NC]
+
+RewriteRule ^uslugi$ page43493970.html [NC]
+RewriteRule ^uslugi/$ page43493970.html [NC]
+
+RewriteRule ^keysy$ page43494055.html [NC]
+RewriteRule ^keysy/$ page43494055.html [NC]
+
+RewriteRule ^marketplace$ page55129419.html [NC]
+RewriteRule ^marketplace/$ page55129419.html [NC]
+
+RewriteRule ^fcstudy$ page51018993.html [NC]
+RewriteRule ^fcstudy/$ page51018993.html [NC]
+
+RewriteRule ^finance-blog$ page52278827.html [NC]
+RewriteRule ^finance-blog/$ page52278827.html [NC]
+
+RewriteRule ^pod-bezopasnost$ page52987811.html [NC]
+RewriteRule ^pod-bezopasnost/$ page52987811.html [NC]
+
+RewriteRule ^wealth-audit$ page52997199.html [NC]
+RewriteRule ^wealth-audit/$ page52997199.html [NC]
+
+RewriteRule ^psy-invest$ page53008519.html [NC]
+RewriteRule ^psy-invest/$ page53008519.html [NC]
+
+RewriteRule ^testquiz$ page54633871.html [NC]
+RewriteRule ^testquiz/$ page54633871.html [NC]
+
+RewriteRule ^pre-ipo-deals$ page55263449.html [NC]
+RewriteRule ^pre-ipo-deals/$ page55263449.html [NC]
+
+RewriteRule ^preipo-uzumex$ page55264441.html [NC]
+RewriteRule ^preipo-uzumex/$ page55264441.html [NC]
+
+RewriteRule ^preipo-anthropic$ page55265865.html [NC]
+RewriteRule ^preipo-anthropic/$ page55265865.html [NC]
+
+RewriteRule ^preipo-toss$ page55265879.html [NC]
+RewriteRule ^preipo-toss/$ page55265879.html [NC]
+
+RewriteRule ^private-credit$ page55373245.html [NC]
+RewriteRule ^private-credit/$ page55373245.html [NC]
+
+RewriteRule ^lawfinance$ page55373825.html [NC]
+RewriteRule ^lawfinance/$ page55373825.html [NC]
+
+RewriteRule ^preipo-muskbox$ page55466365.html [NC]
+RewriteRule ^preipo-muskbox/$ page55466365.html [NC]
+
+RewriteRule ^audit-capitala1$ page55521337.html [NC]
+RewriteRule ^audit-capitala1/$ page55521337.html [NC]
+
+RewriteRule ^marketform$ page55534829.html [NC]
+RewriteRule ^marketform/$ page55534829.html [NC]
+
+RewriteRule ^audit-capitala$ page59452713.html [NC]
+RewriteRule ^audit-capitala/$ page59452713.html [NC]
+
+RewriteRule ^preipo-neuralink$ page61545823.html [NC]
+RewriteRule ^preipo-neuralink/$ page61545823.html [NC]
+
+RewriteRule ^preipo-spacex$ page61547127.html [NC]
+RewriteRule ^preipo-spacex/$ page61547127.html [NC]
+
+RewriteRule ^preipo-xai$ page61556777.html [NC]
+RewriteRule ^preipo-xai/$ page61556777.html [NC]
+
+RewriteRule ^preipo-kraken$ page61557235.html [NC]
+RewriteRule ^preipo-kraken/$ page61557235.html [NC]
+
+RewriteRule ^preipo-uzum$ page61796577.html [NC]
+RewriteRule ^preipo-uzum/$ page61796577.html [NC]
+
+RewriteRule ^partners$ page64258965.html [NC]
+RewriteRule ^partners/$ page64258965.html [NC]
+
+RewriteRule ^workshop-26-feb$ page62165971.html [NC]
+RewriteRule ^workshop-26-feb/$ page62165971.html [NC]
+
+RewriteRule ^testtest$ page63762363.html [NC]
+RewriteRule ^testtest/$ page63762363.html [NC]
+
+RewriteRule ^preipo-glean$ page64279157.html [NC]
+RewriteRule ^preipo-glean/$ page64279157.html [NC]
+
+RewriteRule ^preipo-circle$ page64280025.html [NC]
+RewriteRule ^preipo-circle/$ page64280025.html [NC]
+
+RewriteRule ^preipo-scale$ page68402655.html [NC]
+RewriteRule ^preipo-scale/$ page68402655.html [NC]
+
+RewriteRule ^preipo-aifund$ page68403609.html [NC]
+RewriteRule ^preipo-aifund/$ page68403609.html [NC]
+
+RewriteRule ^workshop-tashkent$ page69075259.html [NC]
+RewriteRule ^workshop-tashkent/$ page69075259.html [NC]
+
+RewriteRule ^preipo-tamara$ page69528935.html [NC]
+RewriteRule ^preipo-tamara/$ page69528935.html [NC]
+
+RewriteRule ^mutalovmenegment$ page85595376.html [NC]
+RewriteRule ^mutalovmenegment/$ page85595376.html [NC]
+
+RewriteRule ^thanks$ page86034456.html [NC]
+RewriteRule ^thanks/$ page86034456.html [NC]
+
+RewriteRule ^pre-ipo-databricks$ page89549426.html [NC]
+RewriteRule ^pre-ipo-databricks/$ page89549426.html [NC]
+
+RewriteRule ^preipo-cursor$ page89550656.html [NC]
+RewriteRule ^preipo-cursor/$ page89550656.html [NC]
+
+RewriteRule ^preipo-secretunicorn$ page89553806.html [NC]
+RewriteRule ^preipo-secretunicorn/$ page89553806.html [NC]
+
+RewriteRule ^preipo-apptronik$ page89554546.html [NC]
+RewriteRule ^preipo-apptronik/$ page89554546.html [NC]
+
+RewriteRule ^pre-ipo-groq$ page89555566.html [NC]
+RewriteRule ^pre-ipo-groq/$ page89555566.html [NC]
+
+RewriteRule ^preipo-crusoe$ page89557006.html [NC]
+RewriteRule ^preipo-crusoe/$ page89557006.html [NC]
+
+RewriteRule ^preipo-xainew$ page89557476.html [NC]
+RewriteRule ^preipo-xainew/$ page89557476.html [NC]
+
+RewriteRule ^preipo-stripe$ page101056936.html [NC]
+RewriteRule ^preipo-stripe/$ page101056936.html [NC]
+
+RewriteRule ^preipo-addi$ page108692686.html [NC]
+RewriteRule ^preipo-addi/$ page108692686.html [NC]
+
+RewriteRule ^pre-ipo-neuralink_v2$ page119423536.html [NC]
+RewriteRule ^pre-ipo-neuralink_v2/$ page119423536.html [NC]
+
+RewriteRule ^pre-ipo-spacex_v2$ page119424866.html [NC]
+RewriteRule ^pre-ipo-spacex_v2/$ page119424866.html [NC]
+
+RewriteRule ^pre-ipo-cursor_v2$ page119425506.html [NC]
+RewriteRule ^pre-ipo-cursor_v2/$ page119425506.html [NC]
+
+RewriteRule ^preipo-tamara_v2$ page119426026.html [NC]
+RewriteRule ^preipo-tamara_v2/$ page119426026.html [NC]
+
+RewriteRule ^preipo-polymarket$ page123283716.html [NC]
+RewriteRule ^preipo-polymarket/$ page123283716.html [NC]
+
+RewriteRule ^preipo-clickhouse$ page123286976.html [NC]
+RewriteRule ^preipo-clickhouse/$ page123286976.html [NC]
+
+RewriteRule ^preipo-openevidence$ page141253696.html [NC]
+RewriteRule ^preipo-openevidence/$ page141253696.html [NC]
+
+RewriteRule ^preipo-higgsfield$ page141259726.html [NC]
+RewriteRule ^preipo-higgsfield/$ page141259726.html [NC]
+
+RewriteRule ^preipo-cashea$ page141262876.html [NC]
+RewriteRule ^preipo-cashea/$ page141262876.html [NC]
+
+RewriteRule ^audit-kapitala-v2$ page147281733.html [NC]
+RewriteRule ^audit-kapitala-v2/$ page147281733.html [NC]
+
+RewriteRule ^members/ ma_start.html [NC,L]
+
+
